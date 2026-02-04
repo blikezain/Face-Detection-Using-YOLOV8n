@@ -1,0 +1,13 @@
+# YOLOv8 Face Detection Dataset Configuration
+# Dataset path (relative to this file)
+path: .
+train: train
+val: valid
+test: test
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: Face
