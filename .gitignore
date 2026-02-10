@@ -1,4 +1,18 @@
-#datasets
-/test
-/train
-/valid
+# Datasets
+datasets/
+data/
+*.zip
+
+# YOLO outputs
+runs/
+wandb/
+
+# Model weights
+*.pt
+*.onnx
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+.env
