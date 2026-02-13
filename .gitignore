@@ -1,18 +1,106 @@
-# Datasets
+# ===========================
+# Model Files
+# ===========================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.pkl
+*.h5
+best.pt
+last.pt
+yolov8n.pt
+
+# ===========================
+# Dataset Directories
+# ===========================
 datasets/
 data/
+train/
+test/
+valid/
+images/
+labels/
 *.zip
+*.tar
+*.tar.gz
 
-# YOLO outputs
+# ===========================
+# YOLO Training Outputs
+# ===========================
 runs/
 wandb/
+weights/
+results/
+logs/
+detected_faces/
 
-# Model weights
-*.pt
-*.onnx
-
-# Python junk
-__pycache__/
-*.pyc
+# ===========================
+# Virtual Environments
+# ===========================
+yolo_env/
+venv/
+env/
 .venv/
 .env
+ENV/
+env.bak/
+venv.bak/
+
+# ===========================
+# Python Cache & Build Files
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===========================
+# IDE & Editor Files
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===========================
+# OS Files
+# ===========================
+Thumbs.db
+Desktop.ini
+.directory
+
+# ===========================
+# Test Images/Videos (Optional)
+# ===========================
+# Uncomment if you don't want to track test files
+# *.jpg
+# *.jpeg
+# *.png
+# *.mp4
+# *.avi
